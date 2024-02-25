@@ -1,38 +1,314 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Display Time</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Gunasekhar Athuluri" />
+	<meta name="keywords" content="Gunasekhar Athuluri" />
+	<meta name="author" content="Gunasekhar Athuluri" />
+	<title>Gunasekhar Athuluri</title>
+	<link rel="shortcut icon" href="favicon.png" />
+	<link href='http://fonts.googleapis.com/css?family=Armata' rel='stylesheet' type='text/css' />
+	<link href="css/fonts/stylesheet.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="css/site.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" />
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/code4net.slideshow.js"></script>
+	<script type="text/javascript" src="js/pop-up-mask.js"></script>
+	<script type="text/javascript" src="js/on.scroll.js"></script>
+	<script type="text/javascript" src="js/ajax.js"></script>
+	<script type="text/javascript" src="js/jquery.lightbox-0.5.pack.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/showMore.min.js"></script>
+	<script src="https://kit.fontawesome.com/1c001b056f.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<!--[if lt IE 9]><script type="text/javascript" src="assets/scripts/modernizr.js"></script><![endif]-->
+	<!--[if lt IE 10]>
+		<script type="text/javascript" src="js/PIE.js"></script>
+	<![endif]-->
+	<script>
+		function clear() {
+			Source = document.body.firstChild.data;
+			document.open();
+			document.close();
+			document.title = "Source";
+			document.body.innerHTML = Source;
+		}</script>
+
+
 </head>
-<body>
 
-<h1>Current Time</h1>
-<p id="time"></p>
+<body oncontextmenu=self.event.returnValue=false>
+	<div class="navigation"> <img src="images/navigate.png" alt="navigate_img" />
+		<ul>
+			<li> <a href="#take-me-home" class="nav-active rounded"><span>Take Me Home</span></a> </li>
+			<li> <a href="#about" class="rounded"><span>About</span></a> </li>
+			<li> <a href="#education" class="rounded"><span>Education</span></a> </li>
+			<li> <a href="#experience" class="rounded"><span>Experience</span></a> </li>
+			<li> <a href="#recent_published_apps" class="rounded"><span>Recent Published Apps</span></a> </li>
+		</ul>
+	</div>
 
-<script>
-function updateTime() {
-  var now = new Date();
-  var hours = now.getHours();
-  var minutes = now.getMinutes();
-  var seconds = now.getSeconds();
-  
-  // Add leading zeros if needed
-  hours = (hours < 10) ? '0' + hours : hours;
-  minutes = (minutes < 10) ? '0' + minutes : minutes;
-  seconds = (seconds < 10) ? '0' + seconds : seconds;
-  
-  var timeString = hours + ':' + minutes + ':' + seconds;
-  
-  document.getElementById('time').textContent = timeString;
-}
+	<div id="scrollable">
+		<div class="section first-section" id="take-me-home">
+			<div class="container">
+				<div class="row" style="height: 300px">
+					<div class="column-20 m-top-55" align="center" style="margin-bottom:10px"> <img
+							src="images/guna.png" alt="logo" width="90%" style="border-radius: 20%;" /><br>
 
-// Update time every second
-setInterval(updateTime, 1000);
 
-// Initial call to display time immediately
-updateTime();
-</script>
+					</div>
+					<div class="column-45 m-top-55">
+						<div class="Name-text"> Gunasekhar Athuluri</div>
 
+						<p><br>
+							<a> App Developer</a><br>
+							<a href="https://www.aptiv.com/"><U> Graduate Engineer at Aptiv</U></a> | <a
+								href="https://vit.ac.in/"><U> VIT University
+									Alumni</U></a> <br>
+						</p>
+						<p class="contactinfo" align="left" style="margin:0 auto;">  <i style="color:#d82545;"
+								class="fas fa-envelope-open"></i> gunasekhar0027@gmail.com</p>
+						<p class="contactinfo" align="left" style="margin:0 auto;">  <i style="color:#d82545;"
+								class="fas fa-phone"></i> +91 7995057295</p>
+						<p class="contactinfo" align="left" style="margin:0 auto;">  <i style="color:#d82545;"
+								class="fas fa-location"></i> Bengaluru, Karnataka 560037, India</p>
+
+					</div>
+
+					<div class="column-35 m-top-55" align="middle">
+						<p> <a href="https://vit.ac.in/"><img border=0 width=75% src="images/vit.png" alt="VIT"
+									align="middle"></a>
+						</p>
+						<p>
+							<a href="https://www.aptiv.com/"><img src="images/aptiv.png" alt="Aptiv" width="80%"
+									align="middle" /></a>
+						</p>
+						<i class="fas fa-hand-point-right" style="color:#FF8200;"></i> Follow me on:
+						<a href="https://www.linkedin.com/in/gunasekhar0027" target="_blank"><i
+								class="fa-brands fa-linkedin-in" style="font-size: 24px;color:#0e76a8;"></i></a>
+						<a href="https://www.youtube.com/channel/UC60XYQsbmO8IACgAkXBRU_A" target="_blank"><i
+								class="fa-brands fa-youtube" style="font-size: 24px;color:#FC4C02;"></i></a>
+						<a href="https://play.google.com/store/apps/dev?id=5612942751564184259" target="_blank"><i
+								class="fa-brands fa-google-play" style="font-size: 24px;color:#28a80c;"></i></a>
+						<p> <i class="fas fa-file-pdf" style="color:#FF8200;"></i><a
+								href="https://drive.google.com/file/d/16VEE25rJjqxhThjoaQ683kUEIGLFUEWw/view?usp=drive_link"><U>
+									Get my resume here</U></a></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="clear"></div>
+			<div id="gallery-nav"></div>
+
+			<div class="container">
+				<div class="subheader-separator"></div>
+				<i class="fas fa-bullhorn" style="color:#FF8200;"></i> <span class="style1">Looking for tensorflow
+					developer</span>: preferred experience in converting any given tensorflow model to TFLite model &
+				weights json generation.</span>
+
+			</div>
+
+			<div class="clear"></div>
+			<div id="gallery-nav"></div>
+
+			<div class="section about" id="about">
+				<div class="container">
+					<div class="subheader">
+						<div class="subheader-icon"></div>
+						<div class="subheader-text"> About </div>
+						<div class="subheader-separator"></div>
+					</div>
+					<div class="column-100">
+						<p> Experience with designing, coding, development, testing in the android platform. Worked on
+							development of more than 35 apps. Overall 3+ years of experience in App Development. Have
+							experience in Flutter, Java, Android, Kotlin, AOSP, database SQLite, and API. Worked on
+							designing and developing of automotive, utility, productivity, fintech, e-commerce and IOT
+							apps. Published
+							18 apps to Google Play Store that have users from 150+ countries and acquired overall
+							200,000+ downloads.
+							<br>
+							<i class="fas fa-handshake" style="color:#FF8200;"></i> <span
+								style="color:#FF8200;font-size: 18px;">My Google Play Store Apps :</span>
+							<center>
+								<a href="https://play.google.com/store/apps/dev?id=5612942751564184259"><span
+										style="font-size: 18px; color:#0e76a8;"><U>https://play.google.com/store/apps/dev?id=5612942751564184259</U></span></a>
+							</center>
+					</div>
+				</div>
+				<div class="section education" id="education">
+					<div class="container">
+						<div class="subheader">
+							<div class="subheader-icon"></div>
+							<div class="subheader-text"> Education </div>
+							<div class="subheader-separator"></div>
+						</div>
+						<div class="row">
+							<img class="circular-image-left" src="images/vit_logo.jpg">
+							<div style="padding-top: 10px;padding-bottom: 10px;">
+								<a href="https://vit.ac.in/"><span class="style1" style="font-size: 18px;"><U>Vellore
+											Institute of Technology,
+											Vellore</U></span></a><span style="font-size: 18px;">
+									| Master of
+									Technology:
+									Software Engineering (Integrated)</span> <span
+									style="color:#FF8200;font-size: 18px;">
+									[07/2018 - 04/2023]</span><br> CGPA: 8.51/10.0
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section techskills" id="techskills">
+					<div class="container">
+						<div class="subheader">
+							<div class="subheader-icon"></div>
+							<div class="subheader-text"> Skills </div>
+							<div class="subheader-separator"></div>
+						</div>
+						<div class="column-100">
+							<ul>
+								<li> <span class="style1">Programming Languages: </span> Python, Java, C, C++, Kotlin,
+									Dart, HTML, CSS, JavaScript, PHP </li>
+								<li> <span class="style1">Technologies & Frameworks: </span> Android, AOSP (Android
+									Open-Source Project), Flutter, Node.js, MongoDB, IOT (Internet of Things),
+									WebSocket, TensorFlow </li>
+								<li> <span class="style1">Tools:</span> Android Studio, Firebase, Figma, Adobe
+									Photoshop, Git </li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="section experience" id="experience">
+					<div class="container">
+						<div class="subheader">
+							<div class="subheader-icon"></div>
+							<div class="subheader-text"> Experience </div>
+							<div class="subheader-separator"></div>
+						</div>
+						<div class="row">
+							<img class="circular-image-left" src="images/aptiv_logo.png">
+							<div style="padding-top: 10px;padding-bottom: 10px;">
+								<a href="https://www.aptiv.com/"><span class="style1"
+										style="font-size: 18px;"><U>Aptiv</U></span></a><span style="font-size: 18px;">
+									| Graduate Engineer</span> <span style="color:#FF8200;font-size: 18px;"> [07/2023
+									- Present]</span><br> -Working on
+								the development of automotive infotainment system software using Android and AOSP
+								(Android
+								Open-Source Project), with a specific focus on core features including System Settings,
+								Launcher, System User Interface, and Vehicle Status.<br>-Developed and deployed Python
+								scripts to streamline and automate mission-critical tasks, including downloading nightly
+								software builds, flashing these builds into hardware components, and conducting thorough
+								UI
+								testing.
+							</div>
+						</div>
+						<div class="row">
+							<div style="padding-top: 10px;padding-bottom: 10px;">
+								<a href="https://www.aptiv.com/"><span class="style1"
+										style="font-size: 18px;"><U>Aptiv</U></span></a><span style="font-size: 18px;">
+									| Graduate Engineer Intern</span> <span style="color:#FF8200;font-size: 18px;">
+									[09/2022
+									- 06/2023]</span><br> -Worked on the development of automotive infotainment system
+								software, leveraging Android and AOSP (Android Open-Source Project).<br>-Developed core
+								features within infotainment systems, including System Settings, Launcher, and System
+								User
+								Interface.
+							</div>
+							<img class="circular-image-right" src="images/aptiv_logo.png">
+						</div>
+						<div class="row">
+							<img class="circular-image-left" src="images/e2em_logo.jpg">
+							<div style="padding-top: 10px;padding-bottom: 10px;">
+								<a href="https://in.linkedin.com/company/e2em-technologies"><span class="style1"
+										style="font-size: 18px;"><U>E2EM Technologies</U></span></a><span
+									style="font-size: 18px;">
+									| App Developer Intern</span> <span style="color:#FF8200;font-size: 18px;"> [06/2021
+									-
+									09/2022]</span><br> -Developed mobile applications for various electric vehicles,
+								including mopeds, cycles, and rickshaws.<br>-Created mobile applications for IOT
+								(Internet
+								of Things) devices such as water motor controllers, smart door locks, and home
+								automation
+								systems.<br>-Implemented efficient BLE (Bluetooth Low Energy) and MQTT (Message Queuing
+								Telemetry Transport) communication protocols to establish seamless connections between
+								the
+								applications and the respective devices and controllers.
+							</div>
+						</div>
+						<div class="row">
+							<div style="padding-top: 10px;padding-bottom: 10px;">
+								<a href="https://www.paycrunch.in/"><span class="style1"
+										style="font-size: 18px;"><U>Paycrunch</U></span></a><span
+									style="font-size: 18px;">
+									| App Developer Intern</span> <span style="color:#FF8200;font-size: 18px;"> [09/2021
+									-
+									02/2022]</span><br> -Contributed to the development of a credit card application
+								tailored for student use.<br>-Designed and developed critical modules within the app,
+								including transactions, (KYC) Know Your Customer verifications and authentication.
+							</div>
+							<img class="circular-image-right" src="images/paycrunch_logo.jpg">
+						</div>
+					</div>
+				</div>
+				<div class="section recent_published_apps" id="recent_published_apps">
+					<div class="container">
+						<div class="subheader">
+							<div class="subheader-icon"></div>
+							<div class="subheader-text"> Recent Published Apps</div>
+							<div class="subheader-separator"></div>
+						</div>
+						<div class="row">
+							<img class="circular-image-left" src="images/apps/aipiano.png">
+							<div style="padding-top: 10px;padding-bottom: 10px;">
+								<span class="style1" style="font-size: 18px;">AIPiano</span><span
+									style="font-size: 18px;">
+									AI generated piano music using RNN & LSTM</span> <span
+									style="color:#FF8200;font-size: 18px;">
+								</span><br><i class="fa-brands fa-google-play" style="color:#FF8200;"></i> <a
+									href="https://play.google.com/store/apps/details?id=com.ai.aipiano"
+									style="color:#FF8200;"><U>Get on play store</U></a>
+							</div>
+						</div>
+						<div class="row">
+							<img class="circular-image-left" src="images/apps/dicom_viewer.png">
+							<div style="padding-top: 10px;padding-bottom: 10px;">
+								<span class="style1" style="font-size: 18px;">DICOM Viewer</span><span
+									style="font-size: 18px;">
+									App to visualize medical images like MRI,
+									XRAY, and CT scans</span> <span style="color:#FF8200;font-size: 18px;">
+								</span><br><i class="fa-brands fa-google-play" style="color:#FF8200;"></i> <a
+									href="https://play.google.com/store/apps/details?id=com.app.dicom_viewer"
+									style="color:#FF8200;"><U>Get on play store</U></a>
+							</div>
+						</div>
+						<div class="row">
+							<img class="circular-image-left" src="images/apps/coloro.png">
+							<div style="padding-top: 10px;padding-bottom: 10px;">
+								<span class="style1" style="font-size: 18px;">Coloro</span><span
+									style="font-size: 18px;">
+									App to visualize medical images like MRI,
+									XRAY, and CT scans</span> <span style="color:#FF8200;font-size: 18px;">
+								</span><br><i class="fa-brands fa-google-play" style="color:#FF8200;"></i> <a
+									href="https://play.google.com/store/apps/details?id=com.app.coloro"
+									style="color:#FF8200;"><U>Get on play store</U></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="section nonacademic" id="nonacademic">
+					<div class="container">
+						<div class="subheader">
+							<div class="subheader-separator"></div>
+						</div>
+					</div>
+				</div>
+			</div>
 </body>
+
 </html>
